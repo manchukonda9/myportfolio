@@ -37,9 +37,11 @@
   "optionalDependencies": {
     "typescript": "3.5.3"
   },
+  "homepage": "https://manchukonda9.github.io/myportfolio/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build && gulp licenses",
+    "deploy":"gh-pages -d build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "lint:check": "eslint . --ext=js,jsx;  exit 0",

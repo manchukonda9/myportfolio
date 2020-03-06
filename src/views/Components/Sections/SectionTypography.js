@@ -162,9 +162,11 @@ export default function SectionTypography() {
               <div className={classes.note}>July 2018 - July 2019</div>
               <h4>Senior Systems Engineer</h4>
               <Quote
-                text="Developed and tested custom API using java script to provide account inquiry for one the world largest financial companies .
+                text="Developed core logic for ‘Entire Loan Cycle Processing’ feature by following corporate guidelines for one of the world’s largest financial companies involving in all phases of SDLC.
+                Redesigned architecture to transform a web app written in GWT into a responsive app using React.js and RESTful APIs resulting in a richer UI and 5X performance improvement over existing application. 
                 Worked on inbound and outbound API customizations.
                 Followed the Agile software development life cycle and adhered to SOLID coding principles.
+                Volunteered to conduct Knowledge Transfer sessions and train team on FINACLE (tool by Infosys).
                 "
                 author="Infosys Ltd, Hyderabad, India"
               />
@@ -173,8 +175,9 @@ export default function SectionTypography() {
               <div className={classes.note}>July 2017 - July 2018</div>
               <h4>Systems Engineer</h4>
               <Quote
-                text="Designed and developed features to assess employees’ performance for Human Resources using test driven development.
-                Collaborated with Human Resource team and designers to gather and understand requirements.
+                text="Designed and Developed features to assess employees’ performance for Human Resources using test driven development while solving issues and bugs.
+                Collaborated with Human Resources to analyse requirements and to define timelines and dependencies
+                Contributed in developing features for core banking projects like FINACLE which are now being leveraged by firm.
                 Reinforced best practices with daily code reviews.
                 "
                 author="Infosys Ltd, Hyderabad, India"

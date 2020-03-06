@@ -13,6 +13,7 @@ import Tooltip from "@material-ui/core/Tooltip";
 
 
 // @material-ui/icons
+import DescriptionIcon from '@material-ui/icons/Description';
 import { Apps, CloudDownload,AccountCircle,SchoolIcon,Work,FitnessCenter,ContactMail} from "@material-ui/icons";
 
 
@@ -76,17 +77,29 @@ export default function HeaderLinks(props) {
         </Button>
       </ListItem>
       <ListItem className={classes.listItem}>
-      <Link to="profile-page" >
+     
         <Button
-          href=""
+          href="https://manchukonda9.github.io/profilepage/"
           color="transparent"
           target="_blank"
           className={classes.navLink}
         >
           <AccountCircle className={classes.icons} /> About
         </Button>
-        </ Link>
+     
       </ListItem>
+      <ListItem className={classes.listItem}>
+     
+     <Button
+       href="https://github.com/manchukonda9/Resume/blob/master/Krishna_version2.0.5Java.pdf"
+       color="transparent"
+       target="_blank"
+       className={classes.navLink}
+     >
+       <DescriptionIcon className={classes.icons} />Resume
+     </Button>
+  
+   </ListItem>
       <ListItem className={classes.listItem}>
         {/*<Tooltip title="Delete">
           <IconButton aria-label="Delete">
@@ -126,6 +139,7 @@ export default function HeaderLinks(props) {
           </Button>
         </Tooltip>
       </ListItem>
+  
       <ListItem className={classes.listItem}>
         <Tooltip
           id="instagram-tooltip"
@@ -143,6 +157,8 @@ export default function HeaderLinks(props) {
           </Button>
         </Tooltip>
       </ListItem>
+    
     </List>
+    
   );
 }

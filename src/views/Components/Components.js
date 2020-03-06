@@ -22,13 +22,24 @@ import SectionLogin from "./Sections/SectionLogin.js";
 
 
 import styles from "assets/jss/material-kit-react/views/components.js";
+import { width } from "@material-ui/system";
 
 const useStyles = makeStyles(styles);
+
 
 export default function Components(props) {
   const classes = useStyles();
   const { ...rest } = props;
+  var divStyle = {
+    height:"1200px",
+    width:"100%"
+  };
+  var space = {
+    height:"600px",
+    width:"100%"
+  };
   return (
+
     <div>
       <Header
         brand="Krishna's Profile"
@@ -69,6 +80,11 @@ export default function Components(props) {
 
       </div>
       <Footer />
-    </div>
+
+    </div >
+
+
+
+    
   );
 }

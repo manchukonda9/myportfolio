@@ -91,7 +91,7 @@ export default function HeaderLinks(props) {
       <ListItem className={classes.listItem}>
      
      <Button
-       href="https://github.com/manchukonda9/Resume/blob/master/Krishna_version2.0.5Java.pdf"
+       href="https://github.com/manchukonda9/Resume/blob/master/GopiKrishan_resume2.8_java.pdf"
        color="transparent"
        target="_blank"
        className={classes.navLink}
